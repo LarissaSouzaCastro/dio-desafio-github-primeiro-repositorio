@@ -1,0 +1,52 @@
+- O Git é um sistema de versionamento de código distribuído.
+- O Git Bash é um terminal extendido para otimizar o uso do Git.
+- Navegação básica no terminal:
+							Windows	Linux
+	Comando para navegar nas pastas:			cd		cd			OBS.: cd.. retrocede um nível na navegação
+	Comando para listar:					dir		ls
+	Comando para criar pasta:				mkdir		mkdir
+	Comando para deletar arquivo/repositório:		del/rmdir	rm-rf
+	Comando para limpar tela:				cls		ctrl+L
+	Comando para criar arquivo dentro da pasta:	echo
+
+- Funcionamento do Git
+	- SHA1
+	- Objetos fundamentais
+	- Sistemas distribuídos
+	- Segurança
+
+- Como o Git armaneza os dados?
+	- Blob
+	- Tree
+	- Commit
+
+- Comandos do Git
+	- Git init: iniciar o repositório
+	- Git add: mover arquivos e dar os comandos
+	- Git commi: cria um commit
+
+								Servidor
+								(Repositório remoto)
+Ambiente de desenvolvimento
+
+(Working directory)	(Stagin area)		(Local repository)
+
+Untracked		Unmodified		Modified		Staged
+   | Adiciona	    |			   |			  |
+   | arquivo	    |			   |			  |
+   | (git add)	    |			   |			  |
+   |---------------------------------------------------->
+   |                  |Edita		   |  		  | 
+   |			    |arquivo	   |			  |
+   |                  |(git add)       |			  |
+   |                  |--------------------------------->
+   |                  |			   |			  |
+   |                  |			   |"Stage" o	  | 
+   |                  |			   |arquivo		  |			     
+   |                  |			   |---------------->
+   |        Remove o  |			   |			  |
+   |		arquivo   |			   |			  |      			    
+   |   <--------------|			   |			  |
+   |                  |	    	         |		Commit  |
+   |		          <----------------------------------
+   |                  |			   |			  |
