@@ -52,10 +52,10 @@ Untracked		Unmodified		Modified		Staged
    |                  |			   |			  |
 
 
-- Criar um repositório no GitHub
-- Clonar o repositório no Git Bash (link do código/code)
-OBS.: Ter atenção para trabalhar no "main" do repositório quando modificar conteúdo. Para verificar pode-se utilizar o "git status".
-- Após modificar utilizar o "git add ." para adicionar as atualizações no repositório local.
-- Para enviar ao repositório remoto precisamos utilizar o "git commit -m "Mensagem"".
-- Utilizar o "git status" para ver se foi possível realizar o commit.
-- Para enviar os commits para a nuvem (GitHub) utilizar "git push origin main"
+- Criar um repositório no GitHub:
+	- Clonar o repositório no Git Bash (utilizar o link do código/code)
+		OBS.: Ter atenção para trabalhar no "main" do repositório quando modificar conteúdo. Para verificar tal questão pode-se utilizar o "git status".
+	- Após modificação, utilizar o "git add ." para adicionar as atualizações no repositório local.
+	- Para enviar o arquivo ao repositório remoto precisamos utilizar o "git commit -m "Mensagem"".
+	- Utilizar o "git status" para ver se foi possível realizar o commit.
+	- Para enviar os commits para a nuvem (GitHub) utilizar "git push origin main"
